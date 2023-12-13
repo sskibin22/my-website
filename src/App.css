@@ -1,128 +1,29 @@
-.info-layer {
+.home-layer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .bg {
-  background-color: black; /*#2A2338;*/
-}
-.bg-2 {
-  background-color: #2a2338;
-  width: 100%;
-  height: 100%;
-}
-.bg-3 {
-  background-color: #443365;
-  width: 100%;
-  height: 100%;
-}
-.bg-4 {
-  background-color: #4f3680;
-  width: 100%;
-  height: 100%;
-}
-.bg-5 {
-  background-color: #57339f;
-  width: 100%;
-  height: 100%;
-}
-.name-wrapper {
-  background-color: #2a2338;
-  width: 100vw;
-  padding: 20px;
-  display: inline-flex;
-  position: relative;
-}
-.name {
-  color: white;
-  font-size: 3vw;
-  font-family: "Press Start 2P";
-  margin-right: 8rem;
-  display: inline-block;
-  align-self: flex-end;
-}
-.email {
-  color: white;
-  font-size: 1.5vw;
-  font-family: "Press Start 2P";
-  display: inline-block;
-  align-self: flex-end;
-}
-
-.animation,
-.animation_layer {
-  height: 100%;
-}
-
-.animation {
-  display: block;
-  position: relative;
-  z-index: 10;
-}
-
-.animation_layer {
-  background-position: bottom center;
-  background-size: auto 1038px;
+  background-color: black;
+} 
+.space_layer {
   background-repeat: repeat-x;
   width: 100%;
-  position: absolute;
+  height: 100%;
 }
-.animation_layer.parallax {
-  position: fixed;
+.nav-layer{
+  pointer-events: none;
 }
 
 #stars-top {
-  background-image: url(./images/stars_top.png);
+  background-image: url(./assets/space_bg/stars_top.png);
 }
 
 #stars-mid {
-  background-image: url(./images/stars_mid.png);
+  background-image: url(./assets/space_bg/stars_mid.png);
 }
 
 #stars-bot {
-  background-image: url(./images/stars_bot.png);
+  background-image: url(./assets/space_bg/stars_bot.png);
 }
 
-.navbar {
-  text-align: center;
-  padding-top: 10px;
-}
-ul li {
-  color: white;
-  text-decoration: none;
-  display: inline-flex;
-  padding-right: 20px;
-  font-weight: 700;
-  font-size:x-large;
-  cursor: pointer;
-  list-style: none;
-}
-
-li.link {
-  transition: transform 250ms;
-}
-
-li.link:hover {
-  transform: translateY(-3px);
-  color: yellow;
-}
-
-h1 {
-  color: white;
-}
-
-#home {
-  text-shadow: 2px 1.5px 2px lightgray;
-}
-#about {
-  text-shadow: 1px 1.5px 2px lightgray;
-}
-#skills {
-  text-shadow: 0px 1.5px 2px lightgray;
-}
-#education {
-  text-shadow: -1px 1.5px 2px lightgray;
-}
-#projects {
-  text-shadow: -2px 1.5px 2px lightgray;
-}

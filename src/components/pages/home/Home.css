@@ -1,0 +1,41 @@
+.home {
+  background-color: #2a2338;
+  width: 100vw;
+  padding: 5px 15px 0px 15px;
+  display:inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.name {
+  font-size: 8vw;
+  font-weight: 700;
+}
+
+.links-wrapper{
+    display: inline-flex;
+
+}
+.contact-links ul {
+    text-align: right;
+  }
+.contact-links li {
+  list-style: none;
+
+}
+
+.links-title{
+    font-size: large;
+    margin-right: 10px;
+}
+a.links {
+  color: white;
+  font-size: x-large;
+  transition: transform 250ms;
+}
+
+a.links:hover{
+    color: rgb(191, 102, 255);
+    transform: translateY(-3px);
+}
+

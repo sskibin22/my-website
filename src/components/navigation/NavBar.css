@@ -1,0 +1,39 @@
+.navbar {
+  text-align: center;
+  padding-top: 10px;
+  pointer-events: all;
+}
+
+li.link {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  padding-right: 20px;
+  /* font-family: "Press Start 2P"; */
+  font-weight: 700;
+  font-size: x-large;
+  cursor: pointer;
+  list-style: none;
+  transition: transform 250ms;
+}
+
+li.link:hover {
+  transform: translateY(-3px);
+  color: rgb(191, 102, 255);
+}
+
+#home {
+  text-shadow: 2px 1.5px 2px lightgray;
+}
+#about {
+  text-shadow: 1px 1.5px 2px lightgray;
+}
+#skills {
+  text-shadow: 0px 1.5px 2px lightgray;
+}
+#education {
+  text-shadow: -1px 1.5px 2px lightgray;
+}
+#projects {
+  text-shadow: -2px 1.5px 2px lightgray;
+}
