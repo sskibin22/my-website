@@ -8,7 +8,7 @@
   color: white;
 }
 .name {
-  font-size: 8vw;
+  font-size: 7.5vw;
   font-weight: 700;
 }
 
@@ -37,5 +37,11 @@ a.links {
 a.links:hover{
     color: rgb(191, 102, 255);
     transform: translateY(-3px);
+}
+
+@media (min-width: 1030px){
+  .quote{
+    display: flex;
+  }
 }
 

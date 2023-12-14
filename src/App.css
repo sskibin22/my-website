@@ -27,3 +27,11 @@
   background-image: url(./assets/space_bg/stars_bot.png);
 }
 
+h1 {
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  /* background-color: black; */
+  text-shadow: -2px 1.5px 2px gray;
+}
+

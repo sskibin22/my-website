@@ -23,17 +23,58 @@ li.link:hover {
 }
 
 #home {
-  text-shadow: 2px 1.5px 2px lightgray;
+  text-shadow: 2px 1.5px 2px gray;
 }
 #about {
-  text-shadow: 1px 1.5px 2px lightgray;
+  text-shadow: 1px 1.5px 2px gray;
 }
 #skills {
-  text-shadow: 0px 1.5px 2px lightgray;
+  text-shadow: 0px 1.5px 2px gray;
 }
 #education {
-  text-shadow: -1px 1.5px 2px lightgray;
+  text-shadow: -1px 1.5px 2px gray;
 }
 #projects {
-  text-shadow: -2px 1.5px 2px lightgray;
+  text-shadow: -2px 1.5px 2px gray;
 }
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+.icon-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-title{
+  font-size: x-small;
+  text-shadow: none;
+}
+
+@media (max-width: 520px) {
+  .menu {
+    display: flex;
+    z-index: 100;
+  }
+
+  .navbar ul {
+    position: relative;
+    right: 100%;
+    transition: 250ms;
+    margin-top: 0.5rem;
+  }
+
+  .navbar ul.open {
+    right: 0;
+    transition: 250ms;
+  }
+}
+
