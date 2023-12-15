@@ -17,9 +17,10 @@
   max-width: 200px;
   width: 30%;
   height: auto;
-  background-color: white;
+  background-color: #2a2338;
   padding: 5px;
-  box-shadow:  -2px 1.5px 2px gray;
+  /* box-shadow:  -2px 1.5px 2px gray; */
+  border: 1px solid white;
   margin-bottom: 3rem;
 }
 
@@ -28,11 +29,12 @@
   margin: 0 3rem 1rem 3rem;
   padding: 10px;
   text-align: center;
-  background-color: white;
-  color: black;
+  background-color: #2a2338;
+  color: white;
   font-weight: 500;
   border-radius: 10px;
-  box-shadow:  -2px 1.5px 2px gray;
+  border: 1px solid white;
+  /* box-shadow:  -2px 1.5px 2px gray; */
   font-size: large;
 }
 
