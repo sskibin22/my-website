@@ -5,41 +5,6 @@
   height: 100%;
 }
 
-.skills-grid{
-  padding: 1rem;
-  width: 100%;
-  /* padding: 0rem 2rem 2rem 2rem; */
-  height: 100%;
-  display: grid;
-  gap: 1rem;
-  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-  grid-template-columns: 1fr 1fr;
-  place-items: center;
-}
-.grid-cell{
-  /* display: inline-block; */
-  /* width: 100%; */
-  justify-self: stretch;
-  height: 100%;
-  background-color: white;
-  border-radius: 10px;
-  color: black;
-  font-size: large;
-  font-weight: 500;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 10px 5px 10px;
-  box-shadow:  -2px 1.5px 2px gray;
-}
-
-.section-title{
-  text-align: center;
-  margin: 1rem;
-  text-shadow: -2px 1.5px 2px gray;
-}
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -146,12 +111,12 @@
   justify-content: center;
   align-items: center;
 }
-.lang-icon{
+.skill-icon{
   width: 40px;
   height: auto;
   margin-right: 5px;
 }
-.lang-icon-title{
+.skill-icon-title{
   font-size: large;
 }
 
@@ -179,11 +144,19 @@
 
 /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-    left: 15px;
+    left: 22px;
   }
 
 /* Make all right containers behave like the left ones */
   .right {
     left: 0%;
+  }
+  .skill-icon{
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+  }
+  .skill-icon-title{
+    font-size: medium;
   }
 }

@@ -1,13 +1,12 @@
 import React from "react";
 import "./Skills.css";
-import { icons } from "../../../assets/language_icons/lang_icons";
+import { icons } from "../../../assets/skills_icons/skill_ico";
 
 export const Skills = () => {
   return (
     <div className="skills">
       <h1>Skills</h1>
 
-      <h2 className="section-title">Coding Languages</h2>
       <div class="timeline">
         <div class="container left">
           <div class="content">
@@ -18,11 +17,11 @@ export const Skills = () => {
                 .map((icon) => (
                   <div className="content-item">
                     <img
-                      className="lang-icon"
+                      className="skill-icon"
                       src={icon.icon}
                       alt={icon.title}
                     />
-                    <div className="lang-icon-title">{icon.title}</div>
+                    <div className="skill-icon-title">{icon.title}</div>
                   </div>
                 ))}
             </div>
@@ -37,11 +36,11 @@ export const Skills = () => {
                 .map((icon) => (
                   <div className="content-item">
                     <img
-                      className="lang-icon"
+                      className="skill-icon"
                       src={icon.icon}
                       alt={icon.title}
                     />
-                    <div className="lang-icon-title">{icon.title}</div>
+                    <div className="skill-icon-title">{icon.title}</div>
                   </div>
                 ))}
             </div>
@@ -56,37 +55,17 @@ export const Skills = () => {
                 .map((icon) => (
                   <div className="content-item">
                     <img
-                      className="lang-icon"
+                      className="skill-icon"
                       src={icon.icon}
                       alt={icon.title}
                     />
-                    <div className="lang-icon-title">{icon.title}</div>
+                    <div className="skill-icon-title">{icon.title}</div>
                   </div>
                 ))}
             </div>
           </div>
         </div>
       </div>
-      <h2 className="section-title">Hard Skills</h2>
-      <h2 className="section-title">Soft Skills</h2>
-      {/* <div className="skills-grid">
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-        <div className="grid-cell">Placeholder</div>
-      </div> */}
     </div>
   );
 };
