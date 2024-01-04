@@ -2,6 +2,7 @@ import React from "react";
 import "./Education.css";
 import rutgers from "../../../assets/school_logos/ru2.png";
 import bergen from "../../../assets/school_logos/bcc2.png";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 export const Education = () => {
   return (
@@ -18,6 +19,16 @@ export const Education = () => {
           <div className="school-details-wrapper">
             <h3 className="school-degree">BA Computer Science</h3>
             <div className="school-gpa">GPA: 3.6</div>
+            <div className="school-transcript-wrapper">
+              <a
+                href="./downloads/RU_transcript_SCOTTSKIBIN.pdf"
+                download
+                className="links"
+              >
+                <IoDocumentTextOutline />
+              </a>
+              <div className="school-gpa">Transcript</div>
+            </div>
           </div>
         </div>
         <div className="school-container">
@@ -31,6 +42,16 @@ export const Education = () => {
             <h3 className="school-degree">AS Computer Science</h3>
             <div className="school-gpa">GPA: 3.9</div>
             <div className="school-gpa">Phi Theta Kappa Honor Society</div>
+            <div className="school-transcript-wrapper">
+              <a
+                href="./downloads/BCC_transcript_SCOTTSKIBIN.pdf"
+                download
+                className="links"
+              >
+                <IoDocumentTextOutline />
+              </a>
+              <div className="school-gpa">Transcript</div>
+            </div>
           </div>
         </div>
       </div>

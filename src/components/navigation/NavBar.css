@@ -46,6 +46,9 @@ li.link:hover {
   flex-direction: column;
   justify-content: space-between;
   color: white;
+  background-color: #2a2338;
+  border-radius: 50% ;
+  border: 1px solid white;
 }
 
 .icon-wrapper{
@@ -61,7 +64,7 @@ li.link:hover {
 
 @media (max-width: 520px) {
   .menu {
-    display: flex;
+    display: inline-block;
     z-index: 100;
   }
 
@@ -69,7 +72,11 @@ li.link:hover {
     position: relative;
     right: 100%;
     transition: 250ms;
-    margin-top: 0.5rem;
+    background-color: #2a2338;
+    padding: 5px 0px 1px 0px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
   }
 
   .navbar ul.open {
