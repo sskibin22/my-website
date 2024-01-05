@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.c665d1ba.css",
-    "main.js": "/my-website/static/js/main.5f9a74b0.js",
+    "main.css": "/my-website/static/css/main.d9bf5284.css",
+    "main.js": "/my-website/static/js/main.c5f463df.js",
     "static/js/787.61f74e33.chunk.js": "/my-website/static/js/787.61f74e33.chunk.js",
     "static/media/sweetlee.PNG": "/my-website/static/media/sweetlee.a86ebd0af6cad8bf18f7.PNG",
     "static/media/mysite.PNG": "/my-website/static/media/mysite.b42ca2def3fa3d542894.PNG",
@@ -25,12 +25,12 @@
     "index.html": "/my-website/index.html",
     "static/media/css.svg": "/my-website/static/media/css.8d237eef2beb2543dcb7827ee866ce03.svg",
     "static/media/html5.svg": "/my-website/static/media/html5.bd58c915e529831839148ffea1bddaf8.svg",
-    "main.c665d1ba.css.map": "/my-website/static/css/main.c665d1ba.css.map",
-    "main.5f9a74b0.js.map": "/my-website/static/js/main.5f9a74b0.js.map",
+    "main.d9bf5284.css.map": "/my-website/static/css/main.d9bf5284.css.map",
+    "main.c5f463df.js.map": "/my-website/static/js/main.c5f463df.js.map",
     "787.61f74e33.chunk.js.map": "/my-website/static/js/787.61f74e33.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c665d1ba.css",
-    "static/js/main.5f9a74b0.js"
+    "static/css/main.d9bf5284.css",
+    "static/js/main.c5f463df.js"
   ]
 }
