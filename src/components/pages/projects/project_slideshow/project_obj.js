@@ -12,32 +12,32 @@ export const projects = [
     langs: ["React", "Javascript", "HTML", "CSS"],
     feats: {
       "Responsive Design":
-        "Leveraging React and CSS, the website boasts a responsive layout, ensuring seamless navigation and optimal viewing across various devices.",
+        "With React and CSS, the website boasts a responsive layout, ensuring seamless navigation and optimal viewing across various devices.",
       "Product Showcase":
         "Through carefully designed sections and a visually appealing presentation, the website showcases SweetLee's diverse dessert catalog.",
       "Smooth Navigation":
         "Intuitive navigation menus and user-friendly interfaces facilitate effortless browsing, enabling visitors to explore different dessert categories and discover detailed product information effortlessly.",
       "Ordering System Integration":
-        "Integration with an ordering system (if applicable) ensures a streamlined experience for customers, allowing for convenient browsing and purchase of SweetLee's delectable offerings.",
+        "Integration with an ordering system ensures a streamlined experience for customers, allowing for convenient browsing and purchase of SweetLee's delectable offerings.",
     },
     thumb: sweet,
   },
   {
-    title: "My Website",
-    dates: "December 14, 2023 - ongoing",
+    title: "Personal Portfolio Website",
+    dates: "December 14, 2023 - January 4, 2024",
     link: "https://github.com/sskibin22/my-website",
-    link_name: "My Website Repository",
-    desc: "Voluptate duis et non irure consectetur pariatur laboris laborenisi culpa reprehenderit est ea nulla. Irure proident sunt duis eulaborum sit culpa ut ut cupidatat. Exercitation fugiat veniam animvoluptate ullamco aute nulla sint fugiat id adipisicing doloresint et. Aliqua eu esse qui anim laboris irure. Excepteurconsectetur laboris deserunt in tempor incididunt sint voluptatesint aute voluptate.",
+    link_name: "Personal Website Repository",
+    desc: "This website serves as my personal portfolio, showcasing my expertise, projects, and interests in an interactive and visually appealing manner. It serves as a testament to my ability in front-end development to create engaging and user-centric web applications using React, JavaScript, HTML, and CSS.",
     langs: ["React", "Javascript", "HTML", "CSS"],
     feats: {
-      "Responsive Design":
-        "Leveraging React and CSS, the website boasts a responsive layout, ensuring seamless navigation and optimal viewing across various devices.",
-      "Product Showcase":
-        "Through carefully designed sections and a visually appealing presentation, the website showcases SweetLee's diverse dessert catalog, enticing visitors with tantalizing images and descriptions.",
-      "Smooth Navigation":
-        "Intuitive navigation menus and user-friendly interfaces facilitate effortless browsing, enabling visitors to explore different dessert categories and discover detailed product information effortlessly.",
-      "Ordering System Integration":
-        "Integration with an ordering system (if applicable) ensures a streamlined experience for customers, allowing for convenient browsing and purchase of SweetLee's delectable offerings.",
+      "React.js Implementation":
+        "Utilizing the power of React, I designed a dynamic and responsive user interface, ensuring seamless navigation and a smooth user experience across devices.",
+      "React-Spring/Parallax Integration":
+        "I implemented captivating animations and parallax effects, enhancing the visual quality and providing an immersive user experience that adds depth and engagement to the website.",
+      "Custom Styling with CSS":
+        "The website's aesthetic appeal is augmented by custom CSS, providing a clean, modern design while prioritizing readability and visual hierarchy.",
+      "Project Showcase":
+        "With the help of the React Swiper library, I showcased my projects with detailed descriptions, images, and links, allowing visitors to explore and learn about my work easily.",
     },
     thumb: mysite,
   },
@@ -54,9 +54,9 @@ export const projects = [
       "Data Cleaning and Processing with Python":
         "Python scripts were developed to preprocess the acquired data, eliminating duplicate entries and refining the dataset into a cleaner, more usable format.",
       "PROBLEMS Database Creation with SQLite and Python":
-      "Leveraging SQLite and Python, a PROBLEMS database was initialized and populated using the cleaned dataset, ensuring a well-organized repository of coding problems.",
+        "Leveraging SQLite and Python, a PROBLEMS database was initialized and populated using the cleaned dataset, ensuring a well-organized repository of coding problems.",
       "Front-End Development with Python's Tkinter":
-        "The GUI development was accomplished using Python's tkinter library, creating an intuitive and user-friendly interface. Custom layouts were designed, comprising a main window and problem window, enhancing the user experience.",
+        "The GUI development was accomplished using Python's tkinter library, creating an intuitive and user-friendly interface.",
     },
     thumb: feat,
   },

@@ -29,54 +29,59 @@ export const Slideshow = () => {
             </div>
 
             <div className="proj-grid-container">
-              
+              <div className="proj-link-card-wrapper" id="cell1">
                 <a
                   href={project.link}
                   className="proj-link-card"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="proj-link-wrapper">
+                  <div className="proj-link-wrapper" id="cell2">
                     <img
                       className="proj-img"
                       src={project.thumb}
                       alt="My Portrait"
                     />
-                    <h3 className="proj-thumb-title">{project.link_name} </h3>
+                    <h3 className="proj-link-title">{project.link_name} </h3>
                   </div>
-                  <FaExternalLinkAlt className="link-icon" />
+                  <FaExternalLinkAlt className="proj-link-icon" />
                 </a>
+              </div>
 
-                <div className="proj-lang-wrapper">
-                  <h3 className="proj-lang-title">Project Description:</h3>
-                  <br />
-                  <div className="proj-desc">{project.desc}</div>
-                </div>
-                
-                <div className="proj-feats-wrapper">
-                  <h3 className="proj-lang-title">Key Features:</h3>
-                  <br />
-                  <ol className="proj-lang-list">
-                    {Object.entries(project.feats).map(([title, desc]) => {
-                      return (
-                        <li>
-                          <b>{title}:</b> &nbsp;
-                          <span style={{fontSize: 'medium', fontWeight: '100px'}}>{desc}</span>
-                        </li>
-                      );
-                    })}
-                  </ol>
-                </div>
-                
-                <div className="proj-lang-wrapper">
-                  <h3 className="proj-lang-title">Skills Used:</h3>
-                  <br />
-                  <ul className="proj-lang-list">
-                    {project.langs.map((lang) => (
-                      <li>{lang}</li>
-                    ))}
-                  </ul>
-                </div>
+              <div className="proj-text-wrapper" id="cell2">
+                <h3>Project Description:</h3>
+                <br />
+                <div className="proj-desc">{project.desc}</div>
+              </div>
+
+              <div className="proj-text-wrapper" id="cell3">
+                <h3>Key Features:</h3>
+                <br />
+                <ol className="list-push">
+                  {Object.entries(project.feats).map(([title, desc]) => {
+                    return (
+                      <li>
+                        <b>{title}:</b> &nbsp;
+                        <span
+                          style={{ fontSize: "medium", fontWeight: "100" }}
+                        >
+                          {desc}
+                        </span>
+                      </li>
+                    );
+                  })}
+                </ol>
+              </div>
+
+              <div className="proj-text-wrapper" id="cell4">
+                <h3>Skills Used:</h3>
+                <br />
+                <ul className="list-push">
+                  {project.langs.map((lang) => (
+                    <li>{lang}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </SwiperSlide>
