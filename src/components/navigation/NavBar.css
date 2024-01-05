@@ -9,7 +9,6 @@ li.link {
   text-decoration: none;
   display: inline-flex;
   padding-right: 20px;
-  /* font-family: "Press Start 2P"; */
   font-weight: 700;
   font-size: x-large;
   cursor: pointer;
@@ -19,7 +18,7 @@ li.link {
 
 li.link:hover {
   transform: translateY(-3px);
-  color: rgb(191, 102, 255);
+  color: #bf66ff;
 }
 
 #home {

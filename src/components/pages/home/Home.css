@@ -37,7 +37,7 @@ a.links {
 }
 
 a.links:hover{
-    color: rgb(191, 102, 255);
+    color: #bf66ff;
     transform: translateY(-3px);
 }
 
